@@ -91,7 +91,7 @@ export const Calculator: React.FC = () => {
     for (const key in categories) {
       const category = categories[key];
       // check if we have the exam category
-      if (category.id == EXAM_CATEGORY_ID) {
+      if (category.id === EXAM_CATEGORY_ID) {
         const scoreWithReplacement = calculateCategoryScoreWithReplacement(
           category.id,
           items[FINAL_ITEM_ID]

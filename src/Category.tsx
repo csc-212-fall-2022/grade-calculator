@@ -1,5 +1,5 @@
 import React from "react";
-import { Block, Box, Form } from "react-bulma-components";
+import { Box, Form } from "react-bulma-components";
 import Item, { IItem } from "./Item";
 import Score from "./Score";
 
